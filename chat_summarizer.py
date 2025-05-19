@@ -6,7 +6,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import nltk
 from nltk.corpus import stopwords
 
-# Download stopwords once
 nltk.download('stopwords')
 
 def read_chat_log(file_path):
